@@ -1,19 +1,26 @@
 {
   "name": "dotenv-display",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "display dotnenv values in runtime",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
-  "scripts": {},
-  "dependencies": {
-    "dotenv": "^5.0.0"
+  "scripts": {
+    "test":"mocha"
   },
+  "dependencies": {},
   "devDependencies": {
+    "@types/chai": "^4.1.2",
     "@types/dotenv": "^4.0.2",
-    "@types/node": "^9.4.6"
+    "@types/mocha": "^2.2.48",
+    "@types/node": "^9.4.6",
+    "@types/sinon": "^4.3.0",
+    "chai": "^4.1.2",
+    "dotenv": "^5.0.1",
+    "mocha": "^5.0.1",
+    "sinon": "^4.4.2"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/npm/npm.git"
+    "url": "https://github.com/odedlevy02/dotenv-display.git"
   }
 }

@@ -4,4 +4,5 @@ export const displayEnv=(dotenv)=>{
       relevantEnvList[key]= process.env[key]
     });
     console.log(JSON.stringify(relevantEnvList));
+    return relevantEnvList;
 }

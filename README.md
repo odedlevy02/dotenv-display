@@ -13,7 +13,7 @@ Here is some code smaple:
 ```bash
 import {config} from "dotenv";
 import * as path from "path"
-import {displayEnv} from "./envDisplay";
+import {displayEnv} from "dotenv-display";
 ``````
 
 ```bash
@@ -23,3 +23,8 @@ displayEnv(env.parsed);
 ```
 
 The output will include only variables that were defined inside your .env file
+
+##Test
+````bash
+npm test
+````
