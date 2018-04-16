@@ -1,0 +1,10 @@
+node_modules
+*.js
+*.orig
+*.js.map
+npm-debug.log
+.idea
+.idea/*
+dist
+
+

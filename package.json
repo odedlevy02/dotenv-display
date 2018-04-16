@@ -1,0 +1,19 @@
+{
+  "name": "dotenv-display",
+  "version": "1.0.0",
+  "description": "display dotnenv values in runtime",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {},
+  "dependencies": {
+    "dotenv": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/dotenv": "^4.0.2",
+    "@types/node": "^9.4.6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/npm/npm.git"
+  }
+}
