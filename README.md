@@ -6,7 +6,7 @@ Displays your run-time environment variables based on dotenv
 npm install dotenv-display
 ````
 
-##Usage
+## Usage
 In order to display your runtime environemnt variables make sure to call displayEnv after creating your configuration from dotenv.
 Here is some code smaple:
 
@@ -24,7 +24,7 @@ displayEnv(env.parsed);
 
 The output will include only variables that were defined inside your .env file
 
-##Test
+## Test
 ````bash
 npm test
 ````
